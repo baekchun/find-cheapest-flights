@@ -18,7 +18,7 @@ class GoogleFlights():
     google_flight_api = "https://www.googleapis.com/qpxExpress/v1/trips/search?key={API_KEY}"
 
     # create your own Google API key and insert here 
-    api_key = "AIzaSyD5XOxBz-aPnckVG8b1jq3AGQuSShN-EA0"
+    api_key = ""
 
     def __init__(self, departure_date, return_date, departure_airport, return_airport):
         self.url = self.google_flight_api.format(API_KEY=self.api_key)
