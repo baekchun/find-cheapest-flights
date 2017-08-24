@@ -18,6 +18,8 @@ pip install pattern
 pip install requests
 ```
 
+Please also make sure you get a Google API key and insert it into `google_flights_API.py` file
+
 ### How to run this code:
 
 ```
